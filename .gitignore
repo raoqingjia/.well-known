@@ -1,0 +1,15 @@
+# WorkBuddy 本地工作数据 —— 不要发布到 GitHub Pages
+.workbuddy/
+
+# 系统/编辑器杂项
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# 如需彻底避免误发布，可取消下面注释
+# *
+# !.nojekyll
+# !.well-known/
+# !.well-known/apple-app-site-association
+# !index.html

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>raoqingjia.github.io</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #ffffff;
+      --fg: #1b1b1f;
+      --muted: #5b5b66;
+      --line: #e5e5ea;
+      --accent: #0a84ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+            "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      padding: 24px;
+    }
+    main { width: 100%; max-width: 640px; }
+    h1 { font-size: 28px; margin: 0 0 8px; letter-spacing: -0.02em; }
+    p.sub { margin: 0 0 28px; color: var(--muted); }
+    ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+    li { border-bottom: 1px solid var(--line); }
+    li a {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      padding: 14px 4px;
+      color: var(--fg);
+      text-decoration: none;
+    }
+    li a:hover .name { color: var(--accent); }
+    .name { font-weight: 600; }
+    .path { color: var(--muted); font-size: 14px; font-family: ui-monospace, Menlo, Consolas, monospace; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>raoqingjia.github.io</h1>
+    <p class="sub">GitHub Pages 站点根目录，提供 Apple 通用链接（Universal Links）校验文件。</p>
+    <ul>
+      <li>
+        <a href="/.well-known/apple-app-site-association">
+          <span class="name">apple-app-site-association</span>
+          <span class="path">/.well-known/apple-app-site-association</span>
+        </a>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>

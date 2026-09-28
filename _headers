@@ -1,0 +1,9 @@
+# Netlify / Cloudflare Pages 专用：强制 AASA 的 Content-Type
+# 注意：GitHub Pages 会忽略本文件（它是 Netlify/Cloudflare Pages 的约定）
+
+/.well-known/apple-app-site-association
+  Content-Type: application/json
+
+# 兜底：整个 .well-known 目录
+/.well-known/*
+  Content-Type: application/json
